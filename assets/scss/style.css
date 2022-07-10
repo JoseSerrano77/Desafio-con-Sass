@@ -328,12 +328,14 @@ h2 {
     grid-template-rows: 50px auto 40px;
     grid-template-areas: "headerp headerp  navbar navbar" "mainp   mainp    mainp   mainp" "footerp   footerp   footerp  footerp";
   }
+
   .navbar ul li a {
     text-decoration: none;
     font-size: 11px;
     color: white;
     font-weight: bold;
   }
+
   .videoHome {
     width: 100%;
     height: 400px;
@@ -349,13 +351,16 @@ h2 {
     grid-template-rows: 50px 30px auto 25px;
     grid-template-areas: "headerp headerp headerp headerp" "navbar navbar   navbar navbar" "mainp   mainp    mainp   mainp" "footerp   footerp   footerp  footerp";
   }
+
   .navbar {
     display: flex;
     justify-content: center;
   }
+
   .navbar ul li {
     padding: 5px;
   }
+
   .navbar ul li a {
     text-decoration: none;
     font-size: 12px;
@@ -363,6 +368,7 @@ h2 {
     font-weight: bold;
     flex-wrap: wrap;
   }
+
   #historia {
     font-size: 15px;
     color: rgb(248, 165, 2);
@@ -370,6 +376,7 @@ h2 {
     margin-bottom: 20px;
     overflow: auto;
   }
+
   .videoHome {
     width: 100%;
     height: 400px;
@@ -385,13 +392,16 @@ h2 {
     grid-template-rows: 50px 30px auto 25px;
     grid-template-areas: "headerp headerp headerp headerp" "navbar navbar   navbar navbar" "mainp   mainp    mainp   mainp" "footerp   footerp   footerp  footerp";
   }
+
   .navbar {
     display: flex;
     justify-content: center;
   }
+
   .navbar ul li {
     padding: 5px;
   }
+
   .navbar ul li a {
     text-decoration: none;
     font-size: 9px;
@@ -399,6 +409,7 @@ h2 {
     font-weight: bold;
     flex-wrap: wrap;
   }
+
   #historia {
     font-size: 15px;
     color: rgb(248, 165, 2);
@@ -406,9 +417,11 @@ h2 {
     margin-bottom: 20px;
     overflow: auto;
   }
+
   .footerp {
     font-size: 8px;
   }
+
   .videoHome {
     width: 100%;
     height: 300px;
@@ -425,14 +438,17 @@ h2 {
     grid-template-rows: 160px auto 100px;
     grid-template-areas: "header header  header header" "main   main    main   main" "footer1   footer1   footer1  footer1";
   }
+
   .header h1 {
     font-size: 70px;
     color: rgb(248, 165, 2);
   }
+
   .main {
     padding-bottom: 30px;
     background-color: black;
   }
+
   .imgInicio img {
     width: 300px;
   }
@@ -444,14 +460,17 @@ h2 {
     grid-template-rows: 160px auto 100px;
     grid-template-areas: "header header  header header" "main   main    main   main" "footer1   footer1   footer1  footer1";
   }
+
   .header h1 {
     font-size: 70px;
     color: rgb(248, 165, 2);
   }
+
   .main {
     padding-bottom: 30px;
     background-color: black;
   }
+
   .imgInicio img {
     width: 300px;
   }
